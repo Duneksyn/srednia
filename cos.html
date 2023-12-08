@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <pre>
+    matematyka<input type="number" id="1">
+    fizyka    <input type="number" id="2">
+    angielski <input type="number" id="3">
+    niemiecki <input type="number" id="4">
+              <button onclick="srednia()">oblicz srednią</button>
+              Twoja srednia to:
+</pre>
+<script>
+   
+    function srednia()
+    {
+        var a=getElementById("1")
+    var b=getElementById("2")
+    var c=getElementById("3")
+    var d=getElementById("4")
+        var wynik=((a+b+c+d)/4)
+        document.write(wynik);
+    }
+    srednia()
+</script>
+
+</body>
+</html>
